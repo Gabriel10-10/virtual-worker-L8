@@ -16,6 +16,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         println!("Please set the ORDERS_PER_HOUR environment variable");
         std::process::exit(1);
     }
+    
 
     println!("Orders to process per hour: {}", orders_per_hour);
 
